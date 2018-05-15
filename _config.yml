@@ -1,0 +1,79 @@
+title: Fat Data
+author: Fat Data
+email: hi@fat.gr
+description: > # this means to ignore newlines until "twitter_username:"
+  Machine Learning and Quantitative Analysis
+
+# social links
+twitter_username: jekyllrb
+github_username:  jekyll
+rss: rss
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# Mastodon instances
+# mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+#theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+services:
+- service: Machine Learning 
+  icon: robot
+  description: >
+    Creation of algorithms that can learn and make predictions.
+- service: Quantitative Analysis
+  icon: chart-line 
+  description: >
+    Implementation and use of models that reduce uncertenty.
+- service: Data Collection
+  icon: database
+  description: >
+    Collection of data and creation of datasets from large databases.
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/ 
+  members:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: members 
+    values:
+      layout: page
