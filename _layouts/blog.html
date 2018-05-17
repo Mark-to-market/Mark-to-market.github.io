@@ -1,0 +1,15 @@
+---
+layout: default
+---
+    <header class="masthead" {%- if page.himg -%}
+        style="background-image: url({{ page.himg }});"
+      {%- endif -%}>
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading">{{ page.title | escape }}</div>
+        </div>
+      </div>
+    </header>
+
+    {{ content }}
+  <a href="{{ page.url | relative_url }}" hidden></a>
