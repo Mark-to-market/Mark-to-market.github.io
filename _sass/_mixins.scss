@@ -1,0 +1,48 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: 'Blackout Midnight';
+    src: url('../fonts/blackout-midnight-webfont.woff2') format('woff2'),
+         url('../fonts/blackout-midnight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato Semibold';
+    src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Font Mixins
+@mixin serif-font {
+  font-family: 'Lato Semibold', serif;
+}
+@mixin script-font {
+  font-family: 'Blackout Midnight', cursive;
+}
+@mixin body-font {
+  font-family: 'Lato Semibold', sans-serif;
+}
+@mixin heading-font {
+  font-family: 'Lato Black', sans-serif;
+}

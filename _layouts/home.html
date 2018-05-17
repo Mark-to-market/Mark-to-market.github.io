@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+    <!-- Header -->
+    <header class="masthead masthead-home">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in"><br></div>
+          <div class="intro-heading">Machine Learning and Quantitative Analysis</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Learn More</a>
+        </div>
+      </div>
+    </header>
 
     <!-- Services -->
     <section id="services">
@@ -44,7 +54,7 @@ layout: default
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{{ project.url }}{{ project.img }}" alt="">
+              <img class="img-fluid" src="{{ project.url }}{{ project.timg }}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>{{ project.title }}</h4>
@@ -107,17 +117,17 @@ layout: default
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/r.png" alt="R Lang. Logo">
+              <img class="img-fluid d-block mx-auto" src="{{ site.assets }}img/logos/r.png" alt="R Lang. Logo">
             </a>
           </div>
           <div class="col-md-4 col-sm-12">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/python.png" alt="Python Lang. Logo">
+              <img class="img-fluid d-block mx-auto" src="{{ site.assets }}img/logos/python.png" alt="Python Lang. Logo">
             </a>
           </div>
           <div class="col-md-4 col-sm-12">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/keras.png" alt="Keras Lib. Logo">
+              <img class="img-fluid d-block mx-auto" src="{{ site.assets }}img/logos/keras.png" alt="Keras Lib. Logo">
             </a>
           </div>
         </div>
