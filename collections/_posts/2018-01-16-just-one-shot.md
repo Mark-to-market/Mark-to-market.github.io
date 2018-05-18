@@ -8,7 +8,7 @@ categories:
 img: /assets/media/correlation-matrix-t.png
 himg: /assets/media/correlation-matrix-h.png
 ---
-> All information we need in one shot. This is what visualization offers in data analysis. 
+## All information we need in one shot. This is what visualization offers in data analysis. 
 
 At this image we present a correlation matrix with and without correlation values for 20 variables. It's easy to see patterns at this image - patterns of high and low correlation pairs, especially, if the image is properly colored. For example, at this correlation matrix we can spot that the group of variables A to F is low correlated with the group G to T.
 
