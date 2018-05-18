@@ -107,7 +107,7 @@ prose:
               value: "Quantitative Analysis"
             - name: "Data Collection"
               value: "Data Collection"
-    _projects:
+    collections/_projects:
       - name: "layout"
         field:
           element: "hidden"
@@ -128,3 +128,34 @@ prose:
               value: "Quantitative Analysis"
             - name: "Data Collection"
               value: "Data Collection"
+    collections/_members:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "name"
+        field:
+          element: "text"
+          label: "name"
+      - name: "role"
+        field:
+          element: "text"
+          label: "Role"
+
+    collections/_services:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "icon"
+        field:
+          element: "text"
+          label: "icon"
