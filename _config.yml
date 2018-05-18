@@ -62,13 +62,13 @@ collections_dir: collections
 collections:
   projects:
     output: true
-    permalink: /:collection/:title 
   members:
     output: true
-    permalink: /:collection/:title
   services:
     output: true
-    permalink: /:collection/:title
+  pages:
+    output: true
+    permalink: /:title
 
 assets: /assets/
 
