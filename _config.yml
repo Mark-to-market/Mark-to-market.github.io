@@ -86,7 +86,7 @@ prose:
   siteurl: 'http://www.fat.gr/'
   media: 'assets/media'
   metadata:
-    _posts:
+    collections/_posts:
       - name: "layout"
         field:
           element: "hidden"
