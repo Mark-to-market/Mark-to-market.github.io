@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Just One Shot
 author: Antonis Vatousios
 categories:
