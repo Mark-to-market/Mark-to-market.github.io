@@ -28,8 +28,8 @@ layout: default
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-{{service.icon}} fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">{{service.service}}</h4>
-            <p class="text-muted">{{service.description}}</p>
+            <h4 class="service-heading">{{service.title}}</h4>
+            <p class="text-muted">{{service.content}}</p>
           </div>
           {%- endfor -%}
         </div>
@@ -58,7 +58,7 @@ layout: default
             </a>
             <div class="portfolio-caption">
               <h4>{{ project.title }}</h4>
-              <p class="text-muted">{{ project.category }}</p>
+              <p class="text-muted">{{ project.categories }}</p>
             </div>
           </div>
           {% endfor %}
@@ -80,7 +80,7 @@ layout: default
           <div class="col-sm-6">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ member.url }}{{ member.img }}" alt="">
-              <h4>{{ member.name }}</h4>
+              <h4>{{ member.title }}</h4>
               <p class="text-muted">{{ member.role }}</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">

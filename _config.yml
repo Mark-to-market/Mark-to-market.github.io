@@ -83,6 +83,11 @@ defaults:
       type: members 
     values:
       layout: page
+  - scope:
+      path: ""
+      type: services 
+    values:
+      layout: page
 
 prose:
   rooturl: 'collections'
@@ -98,6 +103,14 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "img"
+        field:
+          element: "text"
+          label: "Image"
+      - name: "himg"
+        field:
+          element: "text"
+          label: "Header Image"
       - name: "categories"
         field:
           element: "multiselect"
@@ -115,6 +128,18 @@ prose:
         field:
           element: "hidden"
           value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "img"
+        field:
+          element: "text"
+          label: "Image"
+      - name: "himg"
+        field:
+          element: "text"
+          label: "Header Image"
       - name: "title"
         field:
           element: "text"
@@ -140,10 +165,6 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "name"
-        field:
-          element: "text"
-          label: "name"
       - name: "role"
         field:
           element: "text"
