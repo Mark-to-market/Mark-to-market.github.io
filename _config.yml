@@ -78,3 +78,55 @@ defaults:
       type: members 
     values:
       layout: page
+
+prose:
+  siteurl: 'http://www.fat.gr/'
+  media: 'assets/media'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Select Categories"
+          placeholder: "Select Categories"
+          options:
+            - name: "Machine Learning"
+              value: "Machine Learning"
+            - name: "Quantitative Analysis"
+              value: "Quantitative Analysis"
+            - name: "Data Collection"
+              value: "Data Collection"
+    _projects:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Select Categories"
+          placeholder: "Select Categories"
+          options:
+            - name: "Machine Learning"
+              value: "Machine Learning"
+            - name: "Quantitative Analysis"
+              value: "Quantitative Analysis"
+            - name: "Data Collection"
+              value: "Data Collection"
