@@ -1,5 +1,9 @@
 ---
-name: Antonis Vatousios 
+layout: page
+name: Antonis Vatousios
 role: Lead Analyst
-img: 16452328.jpeg
+img: /assets/media/16452328.jpeg
+published: true
+title: Antonis Vatousios
 ---
+
