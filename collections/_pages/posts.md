@@ -14,7 +14,7 @@ permalink: /posts/
 	  <i class="fa fa-plus fa-3x"></i>
 	</div>
       </div>
-      <img class="img-fluid" src="/projects/energy-values/energy-values-h.png" alt="">
+      <img class="img-fluid" src="{{ post.img }}" alt="">
     </a>
     <div class="portfolio-caption">
       <p class="text-muted">{{ post.categories }}</p>
