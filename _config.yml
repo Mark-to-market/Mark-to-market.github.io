@@ -57,6 +57,8 @@ services:
   description: >
     Collection of data and creation of datasets from large databases.
 
+collections_dir: collections
+
 collections:
   projects:
     output: true
@@ -80,13 +82,9 @@ defaults:
       layout: page
 
 prose:
+  rooturl: 'collections'
   siteurl: 'http://www.fat.gr/'
   media: 'assets/media'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
   metadata:
     _posts:
       - name: "layout"
