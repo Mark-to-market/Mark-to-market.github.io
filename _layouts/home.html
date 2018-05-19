@@ -58,7 +58,7 @@ layout: default
             </a>
             <div class="portfolio-caption">
               <h4>{{ project.title }}</h4>
-              <p class="text-muted">{{ project.categories }}</p>
+              <p class="text-muted">{{ project.categories | array_to_sentence_string }}</p>
             </div>
           </div>
           {% endfor %}
