@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+published: true
 title: Visualisation Matters ..
 ---
 ![gapminder.gif]({{site.baseurl}}/assets/media/gapminder.gif)
