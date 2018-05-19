@@ -63,10 +63,9 @@ collections_dir: collections
 collections:
   projects:
     output: true
+    permalink: /:collection/:title
   members:
-    output: true
   services:
-    output: true
   pages:
     output: true
     permalink: /:title
