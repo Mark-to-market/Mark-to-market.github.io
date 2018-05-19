@@ -4,6 +4,8 @@ published: true
 title: Visualisation Matters ..
 ---
 
+[![correlation-matrix.png](/assets/media/correlation-matrix.png)](/assets/media/correlation-matrix.png)
+
 
 ## Communication is important and, by all measures, a critical aspect in business and life. It's not always easy to explain ourselves, particularly in complex issues where outcomes coming from multi-factor effects or functions.
 
