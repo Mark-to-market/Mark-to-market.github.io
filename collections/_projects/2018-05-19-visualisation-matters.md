@@ -1,11 +1,11 @@
 ---
 layout: page
-published: false
+published: true
 title: Visualisation Matters ..
 ---
 
 
-Communication is important and, by all measures, a critical aspect in business and life. It's not always easy to explain ourselves, particularly in complex issues where outcomes coming from multi-factor effects or functions.
+## Communication is important and, by all measures, a critical aspect in business and life. It's not always easy to explain ourselves, particularly in complex issues where outcomes coming from multi-factor effects or functions.
 
 Generally speaking, improvement is bound with mapping and measurement, no matter if this is science, markets or public policy. In order to have a reliable measurements we need the right context followed by the appropriate tools.
 
