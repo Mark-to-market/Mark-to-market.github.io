@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+published: true
 title: Correlation Matrix
 himg: /assets/media/correlation-matrix-h.png
 img: /assets/media/correlation-matrix-t.png
