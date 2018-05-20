@@ -4,6 +4,8 @@ published: true
 title: Visualisation Matters ..
 categories:
   - Quantitative Analysis
+img: /assets/media/correlation-matrix.png
+himg: /assets/media/correlation-matrix.png
 ---
 
 [![correlation-matrix.png](/assets/media/correlation-matrix.png)](/assets/media/correlation-matrix.png)
