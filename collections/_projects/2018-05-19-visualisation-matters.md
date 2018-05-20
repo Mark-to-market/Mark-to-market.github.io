@@ -7,7 +7,7 @@ categories:
 img: /assets/media/gapminder.gif
 ---
 
-[![correlation-matrix.png](/assets/media/correlation-matrix.png)](/assets/media/correlation-matrix.png)
+
 ![gapminder.gif]({{site.baseurl}}/assets/media/gapminder.gif)
 
 
