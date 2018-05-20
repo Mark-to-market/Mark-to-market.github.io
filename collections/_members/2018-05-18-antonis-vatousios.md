@@ -1,7 +1,7 @@
 ---
 layout: page
 role: Lead Analyst
-img: /assets/media/antonis3.jpg
+img: /assets/media/antonis4.jpg
 published: true
 title: Antonis Vatousios
 ---
