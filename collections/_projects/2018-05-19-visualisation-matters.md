@@ -5,7 +5,6 @@ title: Visualisation Matters ..
 categories:
   - Quantitative Analysis
 img: /assets/media/gapminder.gif
-himg: /assets/media/gapminder.gif
 ---
 
 [![correlation-matrix.png](/assets/media/correlation-matrix.png)](/assets/media/correlation-matrix.png)
