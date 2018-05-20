@@ -52,7 +52,7 @@ services:
 - service: Quantitative Analysis
   icon: chart-line 
   description: >
-    Implementation and use of models that reduce uncertenty.
+    Implementation and use of models that reduce uncertainty.
 - service: Data Collection
   icon: database
   description: >
