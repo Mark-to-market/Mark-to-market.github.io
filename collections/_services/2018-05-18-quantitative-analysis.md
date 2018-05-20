@@ -4,4 +4,4 @@ published: true
 title: Quantitative Analysis
 icon: chart-line
 ---
-Implementation and use of models that reduce uncertenty.
+Implementation and use of models that reduce uncertainty.
