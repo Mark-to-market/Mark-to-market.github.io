@@ -41,6 +41,7 @@ layout: default
   {%- endif -%}
   <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
   </article>
+<div hidden>
 <ul class="webmentions count inline" id="{{ page.url | absolute_url }}">
 	<li><i class="icon-comment"></i></li>
 	<li>0</li>
@@ -48,3 +49,4 @@ layout: default
 <ul class="webmentions links" id="{{ page.url | absolute_url }}">
 	<li>No webmentions were found.</li>
 </ul>
+</div>
