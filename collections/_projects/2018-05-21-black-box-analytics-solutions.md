@@ -3,7 +3,6 @@ layout: page
 published: true
 title: Black Box Analytics & Solutions
 img: /assets/media/32235527_1801443663232849_2822608307422756864_n.jpg
-himg: /assets/media/32235527_1801443663232849_2822608307422756864_n.jpg
 categories:
   - Quantitative Analysis
 ---
