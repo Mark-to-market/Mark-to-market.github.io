@@ -1,6 +1,6 @@
 ---
 layout: page
-published: false
+published: true
 title: Black Box Analytics & Solutions
 img: /assets/media/black.jpg
 himg: /assets/media/black.jpg
@@ -9,7 +9,3 @@ categories:
 ---
 ## It's official!
 ### We get in Health Analytics with our business partner [Blackbox](www.blackbox.gr "Analytics")
-
-
-
-
