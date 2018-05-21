@@ -2,10 +2,11 @@
 layout: page
 published: true
 title: Black Box Analytics & Solutions
-img: /assets/media/black.jpg
-himg: /assets/media/black.jpg
+img: /assets/media/32235527_1801443663232849_2822608307422756864_n.jpg
+himg: /assets/media/32235527_1801443663232849_2822608307422756864_n.jpg
 categories:
   - Quantitative Analysis
 ---
 ## It's official!
 ### We get in Health Analytics with our business partner [Blackbox](www.blackbox.gr "Analytics")
+![32235527_1801443663232849_2822608307422756864_n.jpg]({{site.baseurl}}/assets/media/32235527_1801443663232849_2822608307422756864_n.jpg)
