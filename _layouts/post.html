@@ -26,11 +26,11 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         
       </time>
-          <div hidden class="e-content p-name">{{ page.title | escape }}</div>
+          <div hidden class="p-name">{{ page.title | escape }}</div>
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <section class="content" itemprop="articleBody">
+                <section class="e-content content" itemprop="articleBody">
     {{ content }}
                 </section>
               </div>
