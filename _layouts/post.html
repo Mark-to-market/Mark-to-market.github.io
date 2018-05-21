@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<article class="h-entry">
     <!-- Header -->
     <header class="masthead" {%- if page.himg -%}
         style="background-image: url('{{ page.himg }}');"
@@ -9,20 +8,25 @@ layout: default
       <div class="container">
         <div class="intro-text">
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = "%-d %b %Y" -%}
-        
-      </time>
           <div class="intro-lead-in">
+        {%- assign date_format = "%-d %b %Y" -%}
       {%- if page.author -%}
-<a hidden rel="me" class="p-author h-card">{{ page.author }}</a>
        {{ page.author }}@     
       {%- endif -%}    {{ page.date | date: date_format }} </div>
-          <div class="e-content p-name intro-heading">{{ page.title | escape }}</div>
+          <div class="intro-heading">{{ page.title | escape }}</div>
         </div>
       </div>
     </header>
 
+<article class="h-entry">
+      {%- if page.author -%}
+<a hidden rel="me" class="p-author h-card">{{ page.author }}</a>
+      {%- endif -%}
+
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        
+      </time>
+          <div hidden class="e-content p-name">{{ page.title | escape }}</div>
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
