@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<article class="h-entry">
     <!-- Header -->
     <header class="masthead" {%- if page.himg -%}
         style="background-image: url('{{ page.himg }}');"
@@ -14,14 +15,14 @@ layout: default
       </time>
           <div class="intro-lead-in">
       {%- if page.author -%}
-        {{ page.author }}@     
+<a hidden rel="me" class="p-author h-card">{{ page.author }}</a>
+       {{ page.author }}@     
       {%- endif -%}    {{ page.date | date: date_format }} </div>
-          <div class="intro-heading">{{ page.title | escape }}</div>
+          <div class="e-content p-name intro-heading">{{ page.title | escape }}</div>
         </div>
       </div>
     </header>
 
-    <article>
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
@@ -34,5 +35,5 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | absolute_url }}" hidden></a>
   </article>
