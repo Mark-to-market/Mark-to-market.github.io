@@ -6,7 +6,7 @@ layout: default
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in"><br></div>
-          <div class="intro-heading">Machine Learning and Quantitative Analysis</div>
+          <div class="intro-heading"><h1>Machine Learning and Quantitative Analysis</h1></div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Learn More</a>
         </div>
       </div>
@@ -54,7 +54,7 @@ layout: default
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="{{ project.img }}" alt="">
+              <img class="img-fluid" src="{{ project.img }}" alt="{{ project.title }}">
             </a>
             <div class="portfolio-caption">
               <h4>{{ project.title }}</h4>
@@ -79,7 +79,7 @@ layout: default
           {% for member in site.members %}
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="{{ member.img }}" alt="">
+              <img class="mx-auto rounded-circle" src="{{ member.img }}" alt="{{ member.title }}">
               <h4>{{ member.title }}</h4>
               <p class="text-muted">{{ member.role }}</p>
             </div>
@@ -131,7 +131,7 @@ layout: default
             <form id="contactForm" name="sentMessage" method="POST" action="https://formspree.io/fatdata@vrachas.com"  novalidate="novalidate">
 <input type="hidden" name="_cc" value="vatousia@tcd.ie" />
 <input type="hidden" name="_format" value="plain" />
-<input type="text" name="_gotcha" style="display:none" />
+<input type="text" name="_gotcha" hidden />
 <input type="hidden" name="_subject" value="Fat Data" />
               <div class="row">
                 <div class="col-md-6">
@@ -167,6 +167,6 @@ layout: default
     </section>
 
 <a hidden class="h-card" rel="me" href="http://www.fat.gr/">Fat Data</a>
-<img hidden class="u-photo" src="http://www.fat.gr/assets/img/header-bg.jpg" />
+<img hidden class="u-photo" src="http://www.fat.gr/assets/img/header-bg.jpg" alt="Fat Data Home Header Image"  />
 <a hidden rel="me" class="u-email">hi@fat.gr</a>
 <p hidden class="p-note">Hello, we are Fat Data, a Machine Learning and Quantitative Analysis company.</p>
