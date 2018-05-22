@@ -8,6 +8,7 @@ categories:
 ---
 
 
-![IMG_20180522_152822.jpg]({{site.baseurl}}/assets/media/IMG_20180522_152822.jpg)
+![33176520_10216633578774676_396436729940148224_o.jpg]({{site.baseurl}}/assets/media/33176520_10216633578774676_396436729940148224_o.jpg)
+
 
 ![IMG_20180522_151912.jpg]({{site.baseurl}}/assets/media/IMG_20180522_151912.jpg)
