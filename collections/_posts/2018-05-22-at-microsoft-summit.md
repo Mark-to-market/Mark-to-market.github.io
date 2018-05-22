@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: At Microsoft Summit
-img: /assets/media/IMG_20180522_151912.jpg
+img: /assets/media/33176520_10216633578774676_396436729940148224_o.jpg
 categories:
   - Machine Learning
 ---
