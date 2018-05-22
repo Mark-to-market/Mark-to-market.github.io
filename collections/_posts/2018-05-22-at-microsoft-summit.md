@@ -2,6 +2,7 @@
 layout: post
 published: false
 title: At Microsoft Summit
+himg: /assets/media/IMG_20180522_151912.jpg
 ---
 ## 
 
