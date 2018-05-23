@@ -11,5 +11,4 @@ categories:
 
 
 
-
 ![price_analysis.gif]({{site.baseurl}}/assets/media/price_analysis.gif)
