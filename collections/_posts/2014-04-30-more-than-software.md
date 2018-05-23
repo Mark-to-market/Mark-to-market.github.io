@@ -4,7 +4,6 @@ published: true
 title: More than Software...
 categories:
   - Quantitative Analysis
-himg: /assets/media/epixeirhseis-h.jpg
 img: /assets/media/epixeirhseis.jpg
 author: Antonis Vatousios
 ---
