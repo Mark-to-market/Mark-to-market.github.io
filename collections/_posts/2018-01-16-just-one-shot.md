@@ -6,7 +6,6 @@ author: Antonis Vatousios
 categories:
   - Quantitative Analysis
 img: /assets/media/correlation-matrix-t.png
-himg: /assets/media/correlation-matrix-h.png
 ---
 ## All information we need in one shot. This is what visualization offers in data analysis. 
 
