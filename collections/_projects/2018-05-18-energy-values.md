@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Energy Values
-img: /assets/media/energy-values-t.png
+img: /assets/media/price_analysis.gif
 published: true
 categories:
   - Quantitative Analysis
