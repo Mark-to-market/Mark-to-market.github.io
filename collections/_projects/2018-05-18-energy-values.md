@@ -9,7 +9,6 @@ categories:
 himg: /assets/media/price_analysis.gif
 ---
 
-[![Energy Values](/assets/media/energy-values.png)](/assets/media/energy-values.png)
 
 ![price_analysis.gif]({{site.baseurl}}/assets/media/price_analysis.gif)
 
