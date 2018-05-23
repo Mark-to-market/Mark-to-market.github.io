@@ -13,4 +13,4 @@ categories:
 
 ![price_analysis.gif]({{site.baseurl}}/assets/media/price_analysis.gif)
 
-### At this graph, it's easy to see the variation of energy prices for the first half of 2017
+### At this graph, it's easy to see the variation of energy prices for the first half of 2017. Which month, which day and which variable presents high variance.
