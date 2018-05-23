@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Visualization matters.
+title: Visualization matters
 categories:
   - Quantitative Analysis
 img: /assets/media/visualization-matters-t.jpg
