@@ -36,6 +36,27 @@ layout: default
       </div>
     </section>
 
+    <section >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">News</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for post in site.posts limit:3 %}
+          <div class="col-md-4 col-sm-4">
+              <p>{{ post.date }}<p>
+              <h3>{{ post.title }}</h3>
+            <a href="{{ post.url }}">
+              Read more
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
     <!-- Projects Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
