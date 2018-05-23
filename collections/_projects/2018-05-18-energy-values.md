@@ -7,7 +7,7 @@ categories:
   - Quantitative Analysis
   - Data Collection
 ---
-## Everybody knows that story-telling is the high-order bit in Business Analytics, Market Research.. and Basic Research or Policy Making.. At the heart, of story-telling is visualization. 
+### Everybody knows that story-telling is the high-order bit in Business Analytics, Market Research.. and Basic Research or Policy Making.. And, visualization is at the heart, of story-telling. 
 
 
 
