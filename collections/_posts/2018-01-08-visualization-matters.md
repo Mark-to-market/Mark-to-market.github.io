@@ -5,7 +5,6 @@ title: Visualization matters.
 categories:
   - Quantitative Analysis
 img: /assets/media/visualization-matters-t.jpg
-himg: /assets/media/visualization-matters-h.jpg
 author: Antonis Vatousios
 ---
 Communication is important and, by all measures, a critical aspect in business and life. It's not always easy to explain ourselves, particularly in complex issues where outcomes coming from multi-factor effects or functions.
