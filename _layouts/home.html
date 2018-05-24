@@ -53,8 +53,9 @@ layout: default
             {%- assign date_format = "%-d %b %Y" -%}
              <p>{{ post.date | date: date_format }}<p>
               <h3 class="h4">{{ post.title }}</h3>
-            <a href="{{ post.url }}">
+              <a href="{{ post.url }}">
               Read more
+             <img class="img-fluid" src="{{ post.img }}" alt="{{ post.title }}">
             </a>
             </div>
            </div>
