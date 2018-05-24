@@ -50,7 +50,7 @@ layout: default
          {% for post in site.posts limit:3 %}
           <div class="col-md-4 col-sm-4">
             {%- assign date_format = "%-d %b %Y" -%}
-             <p>{{ post.date | date: date_format }}<p> 
+             <p>{{ post.date | date: date_format; text-center; }}<p> 
               <h3 class="h4">{{ post.title }}</h3>
             <a href="{{ post.url }}">
               Read more
