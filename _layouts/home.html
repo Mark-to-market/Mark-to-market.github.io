@@ -38,7 +38,7 @@ layout: default
 
     <section id="news">
       <div class="container"; heught: auto;>
-        <div style="height: 50px; background-color: rgba(250,100,50,0.1);">
+        <div style="height: 50px; background-color: rgba(50,150,50,0.1);">
          <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">News</h2>
@@ -50,7 +50,7 @@ layout: default
          {% for post in site.posts limit:3 %}
           <div class="col-md-4 col-sm-4">
             {%- assign date_format = "%-d %b %Y" -%}
-             <p>{{ post.date | date: date_format; text-center; }}<p> 
+             <p>{{ post.date | date: date_format }}<p> 
               <h3 class="h4">{{ post.title }}</h3>
             <a href="{{ post.url }}">
               Read more
