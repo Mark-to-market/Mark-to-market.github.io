@@ -1,8 +1,8 @@
-title: Fat Data
-author: Fat Data
-email: hi@fat.gr
+title: Mark to Market
+author: Mark to Market
+email: vatousia@tcd.ie
 description: > # this means to ignore newlines until "twitter_username:"
-  Machine Learning and Quantitative Analysis
+  Market Research & Analytics
 
 # social links
 twitter_username: jekyllrb
@@ -91,7 +91,7 @@ defaults:
 
 prose:
   rooturl: 'collections'
-  siteurl: 'http://www.fat.gr/'
+  siteurl: 'http://mark-to-market.github.io'
   media: 'assets/media'
   metadata:
     collections/_posts:
