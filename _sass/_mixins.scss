@@ -35,15 +35,18 @@
 
 // Font Mixins
 @mixin serif-font {
-  font-family: 'Lato Semibold', serif;
+  //font-family: 'Lato Semibold', serif;
+  font-family: 'Comic Sans MS', cursive;
 }
 @mixin script-font {
   //font-family: 'Blackout Midnight', cursive;
   font-family: 'Comic Sans MS', cursive;
 }
 @mixin body-font {
-  font-family: 'Lato Semibold', sans-serif;
+  //font-family: 'Lato Semibold', sans-serif;
+  font-family: 'Comic Sans MS', cursive;
 }
 @mixin heading-font {
-  font-family: 'Lato Black', sans-serif;
+  //font-family: 'Lato Black', sans-serif;
+  font-family: 'Comic Sans MS', cursive;
 }
