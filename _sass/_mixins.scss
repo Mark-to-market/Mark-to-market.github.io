@@ -33,6 +33,17 @@
 
 }
 
+@font-face {
+    font-family: 'Cursive';
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+    </style>
+    font-weight: normal;
+    //font-style: normal;
+}
+
+
+
 // Font Mixins
 @mixin serif-font {
   font-family: 'Lato Semibold', serif;
