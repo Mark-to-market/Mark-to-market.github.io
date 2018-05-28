@@ -49,22 +49,24 @@
   font-family: 'Lato Semibold', serif;
   //font-family: 'Comic Sans MS', cursive;
 }
+
 @mixin script-font {
   //font-family: 'Blackout Midnight', cursive;
-  font-family: 'Marck Script', cursive;
   <style>
   @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  font-family: 'Marck Script', cursive;
   </style>
-
 }
+
 @mixin body-font {
   font-family: 'Lato Semibold', sans-serif;
   //font-family: 'Comic Sans MS', cursive;
 }
+
 @mixin heading-font {
   //font-family: 'Lato Black', sans-serif;
-  font-family: 'Marck Script', cursive;
   <style>
   @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  font-family: 'Marck Script', cursive;
   </style>
 }
