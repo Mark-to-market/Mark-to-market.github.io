@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
 // Mixins
 // Background Cover Mixin
 @mixin background-cover {
@@ -52,10 +55,10 @@
 
 @mixin script-font {
   //font-family: 'Blackout Midnight', cursive;
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  //<style>
+  //@import url('https://fonts.googleapis.com/css?family=Marck+Script');
   font-family: 'Marck Script', cursive;
-  </style>
+  //</style>
 }
 
 @mixin body-font {
@@ -65,8 +68,8 @@
 
 @mixin heading-font {
   //font-family: 'Lato Black', sans-serif;
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  //<style>
+  //@import url('https://fonts.googleapis.com/css?family=Marck+Script');
   font-family: 'Marck Script', cursive;
-  </style>
+  //</style>
 }
