@@ -33,14 +33,14 @@
 
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Cursive';
     <style>
     @import url('https://fonts.googleapis.com/css?family=Marck+Script');
     </style>
     font-weight: normal;
     //font-style: normal;
-}
+}*/
 
 
 
@@ -52,6 +52,10 @@
 @mixin script-font {
   //font-family: 'Blackout Midnight', cursive;
   font-family: 'Marck Script', cursive;
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  </style>
+
 }
 @mixin body-font {
   font-family: 'Lato Semibold', sans-serif;
@@ -60,4 +64,7 @@
 @mixin heading-font {
   //font-family: 'Lato Black', sans-serif;
   font-family: 'Marck Script', cursive;
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+  </style>
 }
