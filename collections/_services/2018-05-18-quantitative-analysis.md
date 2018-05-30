@@ -4,4 +4,4 @@ published: true
 title: Quantitative Analysis
 icon: chart-line
 ---
-Models are all wrong, but some of them are useful. This happens when quantity meets quality and vice versa.
+Essentially, all models are wrong but some are useful. This happens when quantity meets quality and vice versa.
