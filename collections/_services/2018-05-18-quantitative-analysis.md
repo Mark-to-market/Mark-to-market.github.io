@@ -4,4 +4,4 @@ published: true
 title: Quantitative Analysis
 icon: chart-line
 ---
-Implementation and use of models that reduce uncertainty.
+Models are all wrong, but some of them are useful. This happens when quantity meets quality and vice versa.
