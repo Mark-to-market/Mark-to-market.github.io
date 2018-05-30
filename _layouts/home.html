@@ -25,13 +25,15 @@ layout: default
           {%- for service in site.services -%}
           
           
-   
-            <a class="services-link" href="{{ services.url }}">
-              <div class="services-hover">
-                <div class="services-hover-content">
+   <!--Testing-->
+            <a class="service-link" href="{{ service.url }}">
+              <div class="service-hover">
+                <div class="service-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
+              <img class="img-thumbnail img-fluid" src="{{ service.img }}" alt="{{ service.title }}">
+            </a>
                   
           
           
