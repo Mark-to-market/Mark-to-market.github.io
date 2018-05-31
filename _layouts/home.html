@@ -39,11 +39,17 @@ layout: default
           
           
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            
+           <a class="service-link" href="{{ service.url }}">
+            
+             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-{{service.icon}} fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">{{service.title}}</h4>
+             
+            </a>
+           
             <p class="text-muted">{{ service.excerpt | remove: '<p>' | remove: '</p>' }}</p>
           </div>
           {%- endfor -%}
