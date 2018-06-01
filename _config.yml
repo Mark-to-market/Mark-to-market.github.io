@@ -186,6 +186,10 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "himg"
+        field:
+          element: "text"
+          label: "Header Image"
       - name: "icon"
         field:
           element: "text"
