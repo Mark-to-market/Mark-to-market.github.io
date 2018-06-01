@@ -1,1 +1,44 @@
 
+---
+layout: default
+---
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+        <div class="intro-text">
+          <div class="intro-lead-in"><br></div>
+          <div class="intro-heading">{{ page.title | escape }}</div>
+        </div>
+      </div>
+    </header>
+
+    <article>
+      <div>
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div itemprop="articleBody">
+                  <!-- Project Details Go Here -->
+  <header>
+  </header>
+    {{ content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
