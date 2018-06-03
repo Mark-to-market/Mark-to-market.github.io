@@ -66,6 +66,8 @@ collections:
     permalink: /:collection/:title
   members:
   services:
+    output: true
+    permalink: /:collection/:title
   pages:
     output: true
     permalink: /:title
