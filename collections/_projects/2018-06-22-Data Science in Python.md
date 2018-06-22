@@ -8,7 +8,7 @@ img: /assets/media/output_5_1.png
 ---
 
 
-```python
+
 # Import Libraries
 import pandas as pd
 import numpy as np
@@ -18,21 +18,21 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 %matplotlib inline
-```
 
 
-```python
+
+
 # get csv file from url or you can use your own file path 
 # As the dataset doesnot contain header we will add the header as names
 Iris = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data",
 names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Class"])
-```
 
 
-```python
+
+
 # to get an idea about the data
 print(Iris.head(10))
-```
+
 
        Sepal Length  Sepal Width  Petal Length  Petal Width        Class
     0           5.1          3.5           1.4          0.2  Iris-setosa
@@ -48,11 +48,11 @@ print(Iris.head(10))
 
 
 
-```python
+
 # Exploratory Data Analysis
 # to get the summary of our data i.e., basic statisitcs info 
 print(Iris.describe())
-```
+
 
            Sepal Length  Sepal Width  Petal Length  Petal Width
     count    150.000000   150.000000    150.000000   150.000000
@@ -66,19 +66,10 @@ print(Iris.describe())
 
 
 
-```python
+
 # to plot the histogram
 Iris.hist(bins=20)
-```
 
-
-
-
-    array([[<matplotlib.axes._subplots.AxesSubplot object at 0x7f634ec67cf8>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x7f634ec28f98>],
-           [<matplotlib.axes._subplots.AxesSubplot object at 0x7f634ebccef0>,
-            <matplotlib.axes._subplots.AxesSubplot object at 0x7f634ebedef0>]],
-          dtype=object)
 
 
 
@@ -86,17 +77,10 @@ Iris.hist(bins=20)
 
 
 
-```python
+
 # Create the pairplot of the dataset to find out which flower species is most separable
 import seaborn as sns
 sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
-```
-
-
-
-
-    <seaborn.axisgrid.PairGrid at 0x7f63492ac240>
-
 
 
 
@@ -104,28 +88,28 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 
 
-```python
+
 # Randomise the data by creating an array
 iris_array = Iris.values
 np.random.shuffle(iris_array)
-```
 
 
-```python
+
+
 # Train Test split. Slit the data into a training set and a test set.
 X_train = iris_array[:80][:,0:4]
 Y_train = iris_array[:80][:,4]
 X_test = iris_array[-20:][:,0:4]
 Y_test = iris_array[-20:][:,4]
-```
 
 
-```python
+
+
 # Next step is to train a model.
 # We will use a Support Vector Machine Classifier.
 svc = SVC()
 svc.fit(X_train,Y_train)
-```
+
 
 
 
@@ -138,14 +122,14 @@ svc.fit(X_train,Y_train)
 
 
 
-```python
+
 # Model Evaluation
 # Now we get the predictions from the model and create an Accuracy rate
 predictions = svc.predict(X_test)
 
 print("Predicted Results:")
 print(predictions)
-```
+
 
     Predicted Results:
     ['Iris-setosa' 'Iris-virginica' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
@@ -156,10 +140,10 @@ print(predictions)
 
 
 
-```python
+
 print("Actual Results:")
 print(Y_test)
-```
+
 
     Actual Results:
     ['Iris-setosa' 'Iris-versicolor' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
@@ -170,17 +154,17 @@ print(Y_test)
 
 
 
-```python
+
 print("Accuracy rate:  %f" % (accuracy_score(Y_test, predictions)))
-```
+
 
     Accuracy rate:  0.950000
 
 
 
-```python
+
 print(confusion_matrix(Y_test, predictions))
-```
+
 
     [[7 0 0]
      [0 4 1]
@@ -188,9 +172,9 @@ print(confusion_matrix(Y_test, predictions))
 
 
 
-```python
+
 print(classification_report(Y_test, predictions))
-```
+
 
                      precision    recall  f1-score   support
     
