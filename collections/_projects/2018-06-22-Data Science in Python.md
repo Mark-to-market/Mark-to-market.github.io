@@ -4,6 +4,7 @@ published: true
 title: Data Science in Python
 categories:
   - Machine Learning
+img: /assets/media/output_5_1.png
 ---
 
 
