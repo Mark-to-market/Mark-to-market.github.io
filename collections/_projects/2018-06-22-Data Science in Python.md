@@ -1,3 +1,10 @@
+---
+layout: page
+published: false
+title: Untitled
+categories:
+  - Machine Learning
+---
 
 
 ```python
@@ -192,5 +199,3 @@ print(classification_report(Y_test, predictions))
      Iris-virginica       0.89      1.00      0.94         8
     
         avg / total       0.96      0.95      0.95        20
-    
-
