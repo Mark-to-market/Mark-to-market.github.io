@@ -99,7 +99,7 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 
 
-![]({{site.baseurl}}//assets/media/output_5_1.png)
+![output_5_1.png]({{site.baseurl}}/assets/media/output_5_1.png)
 
 
 
