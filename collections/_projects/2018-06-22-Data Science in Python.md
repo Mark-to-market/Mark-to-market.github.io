@@ -1,7 +1,7 @@
 ---
 layout: page
 published: true
-title: Untitled
+title: Data Science in Python
 categories:
   - Machine Learning
 ---
