@@ -81,8 +81,7 @@ Iris.hist(bins=20)
 
 
 
-
-![]({{site.baseurl}}//assets/media/output_4_1.png)
+![output_4_1.png]({{site.baseurl}}/assets/media/output_4_1.png)
 
 
 
