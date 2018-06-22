@@ -82,7 +82,7 @@ Iris.hist(bins=20)
 
 
 
-![png]({{site.baseurl}}//assets/media/output_4_1.png)
+![]({{site.baseurl}}//assets/media/output_4_1.png)
 
 
 
@@ -100,7 +100,7 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 
 
-![png]({{site.baseurl}}//assets/media/output_5_1.png)
+![]({{site.baseurl}}//assets/media/output_5_1.png)
 
 
 
