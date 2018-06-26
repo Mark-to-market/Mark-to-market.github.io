@@ -45,6 +45,8 @@ names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Class"])
 print(Iris.head(10))
 ```
 
+##### It's easy to see the structure of data 
+
 <br>
 
        Sepal Length  Sepal Width  Petal Length  Petal Width        Class
