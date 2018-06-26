@@ -147,16 +147,14 @@ svc = SVC()
 svc.fit(X_train,Y_train)
 ```
 
-
-
+<br>
 
     SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
       decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
       max_iter=-1, probability=False, random_state=None, shrinking=True,
       tol=0.001, verbose=False)
 
-
-
+<br>
 
 ```python
 # Model Evaluation
@@ -167,6 +165,8 @@ print("Predicted Results:")
 print(predictions)
 ```
 
+<br>
+
     Predicted Results:
     ['Iris-setosa' 'Iris-virginica' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
      'Iris-setosa' 'Iris-virginica' 'Iris-virginica' 'Iris-virginica'
@@ -174,12 +174,14 @@ print(predictions)
      'Iris-virginica' 'Iris-virginica' 'Iris-versicolor' 'Iris-versicolor'
      'Iris-virginica' 'Iris-setosa' 'Iris-setosa']
 
-
+<br>
 
 ```python
 print("Actual Results:")
 print(Y_test)
 ```
+
+<br>
 
     Actual Results:
     ['Iris-setosa' 'Iris-versicolor' 'Iris-setosa' 'Iris-setosa' 'Iris-setosa'
@@ -188,26 +190,35 @@ print(Y_test)
      'Iris-virginica' 'Iris-virginica' 'Iris-versicolor' 'Iris-versicolor'
      'Iris-virginica' 'Iris-setosa' 'Iris-setosa']
 
-
+<br>
 
 ```python
 print("Accuracy rate:  %f" % (accuracy_score(Y_test, predictions)))
 ```
 
+<br>
+
     Accuracy rate:  0.950000
+
+<br>
 
 ```python
 print(confusion_matrix(Y_test, predictions))
 ```
 
+<br>
+
     [[7 0 0]
      [0 4 1]
      [0 0 8]]
 
+<br>
 
 ```python
 print(classification_report(Y_test, predictions))
 ```
+
+<br>
 
                      precision    recall  f1-score   support
     
