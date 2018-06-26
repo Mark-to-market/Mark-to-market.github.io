@@ -11,7 +11,7 @@ img: /assets/media/output_5_1.png
 
 ##### At first, we should import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
 
-   
+<br>   
 
 ```python 
 import pandas as pd
