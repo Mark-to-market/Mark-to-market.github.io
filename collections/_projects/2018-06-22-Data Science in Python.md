@@ -8,8 +8,10 @@ img: /assets/media/output_5_1.png
 ---
 
 
+# We can check the effectiveness of an algorithm by choosing an opendata set
+
+# At first, we Import Libraries
 ```python 
-# Import Libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
