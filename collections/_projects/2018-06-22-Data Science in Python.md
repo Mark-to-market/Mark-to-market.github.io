@@ -45,7 +45,7 @@ names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Class"])
 print(Iris.head(10))
 ```
 
-##### It's easy to see the structure of dataset - it includes four features and three classes 
+##### It's easy to see the structure of dataset - it includes four features and three classes..  
 
 <br>
 
