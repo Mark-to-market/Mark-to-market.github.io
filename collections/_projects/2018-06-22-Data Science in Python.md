@@ -87,8 +87,9 @@ print(Iris.describe())
 
 ##### Histogram, it's the first step to visualise basic statistical info about your data ..
 
+<br>
+
 ```python
-# to plot the histogram
 Iris.hist(bins=20)
 ```
 
