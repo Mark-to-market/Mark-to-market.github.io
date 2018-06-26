@@ -12,6 +12,7 @@ img: /assets/media/output_5_1.png
 
 ##### At first, we should import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
 
+
 ```python 
 import pandas as pd
 import numpy as np
@@ -22,18 +23,23 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 %matplotlib inline
 ``` 
+
 ##### We can get a tested dataset. Iris is a flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant. It's appropriate to use it for demonstration and/or educational purposes..
+
 
 ```python
 Iris = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data",
 names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Class"])
 ```
 
-##### It's to useful to take a look at the data.. However, this is a structured dataset, meaning that 
+
+##### It's to useful to take a look at the data.. However, this is a structured dataset, meaning that we can get an idea by reading a few lines ..
+
 
 ```python
 print(Iris.head(10))
 ```
+
 
        Sepal Length  Sepal Width  Petal Length  Petal Width        Class
     0           5.1          3.5           1.4          0.2  Iris-setosa
