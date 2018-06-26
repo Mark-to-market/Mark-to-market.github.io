@@ -71,6 +71,8 @@ print(Iris.head(10))
 print(Iris.describe())
 ```
 
+<br>
+
            Sepal Length  Sepal Width  Petal Length  Petal Width
     count    150.000000   150.000000    150.000000   150.000000
     mean       5.843333     3.057333      3.758000     1.199333
@@ -81,7 +83,9 @@ print(Iris.describe())
     75%        6.400000     3.300000      5.100000     1.800000
     max        7.900000     4.400000      6.900000     2.500000
 
+<br>
 
+##### Histogram, it's the first step to visualise basic statistical info about your data ..
 
 ```python
 # to plot the histogram
