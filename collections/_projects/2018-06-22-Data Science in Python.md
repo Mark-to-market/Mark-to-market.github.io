@@ -8,7 +8,7 @@ img: /assets/media/output_5_1.png
 ---
 
 
-# We can check the effectiveness of an algorithm by choosing an opendata set
+# We can check the effectiveness of an algorithm by choosing an open dataset. It's really important to
 
 # At first, we Import Libraries
 ```python 
