@@ -98,7 +98,7 @@ Iris.hist(bins=20)
 
 <br>
 
-##### Pairplot could give you an advanced statistical info about data ..
+##### Pairplot could give you an advanced visual info about your data.. For example, which class is most seperable and which feature contributes the most ..
 
 <br>
 
