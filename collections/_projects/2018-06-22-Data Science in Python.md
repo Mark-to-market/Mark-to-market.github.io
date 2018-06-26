@@ -63,7 +63,7 @@ print(Iris.head(10))
 
 <br>
 
-##### to get the summary of our data i.e., basic statisitcs info 
+##### Also, it's common practice in data analysis 
 
 <br>
 
