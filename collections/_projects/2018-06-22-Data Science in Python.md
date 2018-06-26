@@ -92,18 +92,22 @@ print(Iris.describe())
 Iris.hist(bins=20)
 ```
 
-
+<br>
 
 ![output_4_1.png]({{site.baseurl}}/assets/media/output_4_1.png)
 
+<br>
 
+##### Pairplot could give you an advanced statistical info about data ..
+
+<br>
 
 ```python
-# Create the pairplot of the dataset to find out which flower species is most separable
 import seaborn as sns
 sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 ```
 
+<br>
 
 ![output_5_1.png]({{site.baseurl}}/assets/media/output_5_1.png)
 
