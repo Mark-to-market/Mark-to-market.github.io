@@ -116,8 +116,9 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 <br>
 
+##### In order to train and test an algorithm, we need random data .. 
+
 ```python
-# Randomise the data by creating an array
 iris_array = Iris.values
 np.random.shuffle(iris_array)
 ```
