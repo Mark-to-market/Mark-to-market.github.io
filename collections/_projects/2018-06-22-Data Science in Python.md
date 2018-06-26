@@ -10,7 +10,7 @@ img: /assets/media/output_5_1.png
 
 # We can check the effectiveness of an algorithm by choosing an open dataset. At first, it's really important to visualize your dataset in proper way.  
 
-# At first, we should import relevant libraries for our analysis.
+# At first, we should import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
 
 ```python 
 import pandas as pd
@@ -22,7 +22,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 %matplotlib inline
 ``` 
-
+# We can get a tested dataset. Iris is an open flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant.
 
 ```python
 # get csv file from url or you can use your own file path 
