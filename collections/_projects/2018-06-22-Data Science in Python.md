@@ -63,9 +63,11 @@ print(Iris.head(10))
 
 <br>
 
+##### to get the summary of our data i.e., basic statisitcs info 
+
+<br>
+
 ```python
-# Exploratory Data Analysis
-# to get the summary of our data i.e., basic statisitcs info 
 print(Iris.describe())
 ```
 
