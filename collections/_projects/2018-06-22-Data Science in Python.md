@@ -127,8 +127,9 @@ np.random.shuffle(iris_array)
 
 <br>
 
+##### Train Test split. Slit the data into a training set and a test set.
+
 ```python
-# Train Test split. Slit the data into a training set and a test set.
 X_train = iris_array[:80][:,0:4]
 Y_train = iris_array[:80][:,4]
 X_test = iris_array[-20:][:,0:4]
