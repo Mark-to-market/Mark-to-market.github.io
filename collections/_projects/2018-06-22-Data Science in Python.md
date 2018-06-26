@@ -63,7 +63,7 @@ print(Iris.head(10))
 
 <br>
 
-##### Also, it's common practice in data analysis 
+##### Also, it's common practice in data analysis to get information for basic statistics .. 
 
 <br>
 
