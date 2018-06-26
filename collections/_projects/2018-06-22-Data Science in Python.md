@@ -111,7 +111,7 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 ![output_5_1.png]({{site.baseurl}}/assets/media/output_5_1.png)
 
-
+<br>
 
 ```python
 # Randomise the data by creating an array
