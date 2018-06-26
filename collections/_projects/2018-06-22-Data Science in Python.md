@@ -22,7 +22,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 %matplotlib inline
 ``` 
-# We can get a tested dataset. Iris is an open flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant.
+# We can get a tested dataset. Iris is a flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant. It's appropriate to use it for demonstration and/or educational purposes..
 
 ```python
 Iris = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data",
