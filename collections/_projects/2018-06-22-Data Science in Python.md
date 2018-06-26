@@ -120,6 +120,7 @@ iris_array = Iris.values
 np.random.shuffle(iris_array)
 ```
 
+<br>
 
 ```python
 # Train Test split. Slit the data into a training set and a test set.
