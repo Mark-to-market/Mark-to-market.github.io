@@ -127,7 +127,9 @@ np.random.shuffle(iris_array)
 
 <br>
 
-##### Train Test split. Slit the data into a training set and a test set.
+##### The next step would be to split the data.. We need two subdatasets - the first one for training and the second for testing. The point is the 'right' size for these subdatasets
+
+Slit the data into a training set and a test set.
 
 <br>
 
