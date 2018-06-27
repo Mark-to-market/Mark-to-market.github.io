@@ -129,8 +129,6 @@ np.random.shuffle(iris_array)
 
 ##### The next step would be to split the data.. We need two subdatasets - the first one for training and the second for testing. The point is the 'right' size for these subdatasets, a small training set would be a wrong guide to set up our algorithm, on the other side an extremely large training algorithm would be a waste of time. However, these questions are tricky when we deal with unstructured datasets.
 
-Slit the data into a training set and a test set.
-
 <br>
 
 ```python
