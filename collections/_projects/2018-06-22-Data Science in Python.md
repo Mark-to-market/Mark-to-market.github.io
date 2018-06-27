@@ -140,7 +140,9 @@ Y_test = iris_array[-20:][:,4]
 
 <br>
 
-##### It's time to train a model. We could use several models, however, a good choice for our data would be a Support Vector Machine Classifier.
+##### It's time to train a model. We could use several models, however, a good choice for our data would be a Support Vector Machine.. SVM is a discriminative Classifier 
+
+That’s what SVM does. It finds out a line/ hyper-plane (in multidimensional space that separate outs classes).
 
 <br>
 
