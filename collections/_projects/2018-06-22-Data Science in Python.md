@@ -183,7 +183,7 @@ print(predictions)
 
 <br>
 
-##### 
+##### And we will compare them with the Actual Results ..  
 
 <br>
 
@@ -203,6 +203,10 @@ print(Y_test)
 
 <br>
 
+##### So, the Accuracy Rate will be pretty high - meaning that our classifier has done a good job for this kind of data ..
+
+<br>
+
 ```python
 print("Accuracy rate:  %f" % (accuracy_score(Y_test, predictions)))
 ```
@@ -210,6 +214,10 @@ print("Accuracy rate:  %f" % (accuracy_score(Y_test, predictions)))
 <br>
 
     Accuracy rate:  0.950000
+
+<br>
+
+##### However, we would have
 
 <br>
 
