@@ -217,7 +217,7 @@ print("Accuracy rate:  %f" % (accuracy_score(Y_test, predictions)))
 
 <br>
 
-##### However, we would have
+##### Also, with a Confusion Matrix, we will have a more complete picture for our model at this particular dataset. However, SVC model belongs to Supervised Learning, meaning that its effectiveness will be limited for datasets with completely different structure ..  
 
 <br>
 
@@ -238,6 +238,11 @@ print(classification_report(Y_test, predictions))
 ```
 
 <br>
+
+##### At last, 
+
+<br>
+
 
                      precision    recall  f1-score   support
     
