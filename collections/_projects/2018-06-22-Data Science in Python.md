@@ -239,7 +239,7 @@ print(classification_report(Y_test, predictions))
 
 <br>
 
-##### At last, we check the Classification Report.. precision and recall  
+##### At last, we check the Classification Report.. Precision is a ratio that shows the Accuracy with FP, while recall is the respective ratio with FN. Therefore, we conclude that our model with Setosa and Versicolor classes works pretty, however, it may needs some corrective actions for Virginica because it presents too many FP..  
 
 <br>
 
