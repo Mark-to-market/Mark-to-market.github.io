@@ -239,7 +239,7 @@ print(classification_report(Y_test, predictions))
 
 <br>
 
-##### At last, 
+##### At last, we check the Classification Report.. precision and recall  
 
 <br>
 
