@@ -151,7 +151,7 @@ svc.fit(X_train,Y_train)
 
 <br>
 
-##### That's the outcome of Training.. 
+##### This is our classifier.. 
 
 <br>
 
@@ -162,11 +162,12 @@ svc.fit(X_train,Y_train)
 
 <br>
 
-```python
-# Model Evaluation
-# Now we get the predictions from the model and create an Accuracy rate
-predictions = svc.predict(X_test)
+##### Therefore, we are going to get predictions from our model ..
 
+<br>
+
+```python
+predictions = svc.predict(X_test)
 print("Predicted Results:")
 print(predictions)
 ```
@@ -179,6 +180,10 @@ print(predictions)
      'Iris-versicolor' 'Iris-virginica' 'Iris-virginica' 'Iris-versicolor'
      'Iris-virginica' 'Iris-virginica' 'Iris-versicolor' 'Iris-versicolor'
      'Iris-virginica' 'Iris-setosa' 'Iris-setosa']
+
+<br>
+
+##### 
 
 <br>
 
