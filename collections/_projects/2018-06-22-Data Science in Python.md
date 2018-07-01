@@ -7,7 +7,7 @@ categories:
 img: /assets/media/output_5_1.png
 ---
 
-####### _Based on [Data Science Tutorial in Python](https://www.linkedin.com/pulse/data-science-tutorial-python-ambica-nandimandalam/) of Ambica Nandimandalam_
+###### _Based on [Data Science Tutorial in Python](https://www.linkedin.com/pulse/data-science-tutorial-python-ambica-nandimandalam/) of Ambica Nandimandalam_
 
 <br>
 
