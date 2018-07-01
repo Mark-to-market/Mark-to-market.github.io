@@ -41,7 +41,7 @@ names = ["Sepal Length", "Sepal Width", "Petal Length", "Petal Width", "Class"])
 
 <br>
 
-##### It's to useful to take a look at the data.. However, this is a structured dataset, meaning that we can get an idea by reading a few lines ..
+##### Take a look at the data.. Usually, datasets need a lot of work to prepare them for analysis. However, this is a structured dataset, meaning that we can get an idea by reading a few lines ..
 
 <br>
 
