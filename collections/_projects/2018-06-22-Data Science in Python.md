@@ -32,7 +32,7 @@ from sklearn.metrics import confusion_matrix
 
 <br>
 
-##### We can get a tested dataset. Iris is a flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant. It's appropriate to use it for demonstration and/or educational purposes..
+##### We can get a tested dataset. Iris is a flower dataset which contains 3 classes of 50 instances each, and each class refers to a type of iris plant. This type of data is appropriate for demonstration and/or educational purposes..
 
 <br>
 
