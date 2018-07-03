@@ -122,7 +122,7 @@ sns.pairplot(Iris, hue = 'Class', palette = 'Dark2')
 
 <br>
 
-##### In order to train and test an algorithm, we need random data .. so, we can, technically, randomize our data ..
+##### Now, it's time to train and test an algorithm, but in order to do this effectively we need random data .. so, we can, technically, randomize our data ..
 
 <br>
 
@@ -146,7 +146,7 @@ Y_test = iris_array[-20:][:,4]
 
 <br>
 
-##### It's time to train a model. We could use several models, however, a good choice for our data would be a Support Vector Machine.. SVM is a discriminative classifier meaning that, given a training dataset (supervised learning), the algorithm categorizes each new class.. defining the optimal mathematical region for each class.. 
+##### Let's train our model. We could use several models, however, a good choice for our data would be a Support Vector Machine.. SVM is a discriminative classifier meaning that, given a training dataset (supervised learning), the algorithm categorizes each new class.. defining the optimal mathematical region for each class.. 
 
 <br>
 
