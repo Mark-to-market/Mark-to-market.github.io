@@ -11,9 +11,11 @@ img: /assets/media/output_5_1.png
 
 <br>
 
-##### We can check the effectiveness of an algorithm by choosing an open dataset. At first, it's really important to visualize your dataset in proper way.  
+##### We can check the effectiveness of an algorithm by choosing an open dataset. At first, it's really important to visualize your dataset in proper way. Visualization matters.. 
 
-##### At first, we should import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
+<br>
+
+##### Let's import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
 
 <br>
 
