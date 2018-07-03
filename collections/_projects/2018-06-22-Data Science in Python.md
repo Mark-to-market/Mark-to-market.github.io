@@ -209,7 +209,7 @@ print(Y_test)
 
 <br>
 
-##### So, the Accuracy Rate will be pretty high - meaning that our classifier has done a good job for this kind of data ..
+##### So, the Accuracy Rate will be pretty high - meaning that our classifier has done a good job for this type of data ..
 
 <br>
 
@@ -245,7 +245,7 @@ print(classification_report(Y_test, predictions))
 
 <br>
 
-##### At last, we check the Classification Report.. Precision is a ratio that shows the Accuracy with FP, while recall is the respective ratio with FN. Therefore, we conclude that our model with Setosa and Versicolor classes works pretty, however, it may needs some corrective actions for Virginica because it presents too many FP..  
+##### At last, we check the Classification Report.. Precision is a ratio that shows the Accuracy with FP, while recall is the respective ratio with FN. Therefore, we conclude that our model with Setosa and Versicolor classes works pretty well, however, it may need some corrective actions for Virginica because it presents too many FP..  
 
 <br>
 
