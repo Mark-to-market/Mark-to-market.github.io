@@ -71,7 +71,7 @@ print(Iris.head(10))
 
 <br>
 
-##### Additionnaly, it's common practice in data analysis to get information for basic statistics .. 
+##### Additionnaly, it's common practice in data analysis to get information for basic statistics.. Look at std 
 
 <br>
 
