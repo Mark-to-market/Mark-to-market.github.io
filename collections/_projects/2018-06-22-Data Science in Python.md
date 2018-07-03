@@ -93,7 +93,7 @@ print(Iris.describe())
 
 <br>
 
-##### Histogram, it's the first step to visualise basic statistical info about your data ..
+##### Histogram, it's the first step to visualise basic statistical info about your data.. Try histograms with large and small number of bins and select the more informative .. 
 
 <br>
 
