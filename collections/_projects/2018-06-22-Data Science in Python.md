@@ -53,7 +53,7 @@ print(Iris.head(10))
 
 <br>
 
-##### It's easy to see the structure of dataset - it includes four features and three classes..  
+##### It's easy to see the structure of this dataset - it includes four features and three classes..  
 
 <br>
 
