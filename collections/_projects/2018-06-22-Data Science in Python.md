@@ -15,7 +15,7 @@ img: /assets/media/output_5_1.png
 
 <br>
 
-##### Let's import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing..  
+##### Let's import relevant libraries for our analysis. Pandas is for analysis and modelling, Numpy and Matplotlib for scientific computing.. Scikit-Learn is a Python module for ML. 
 
 <br>
 
